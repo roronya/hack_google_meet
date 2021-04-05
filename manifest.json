@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "hack_google_meet",
+  "description": "hack the google meet",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/**"
+      ],
+      "js": ["index.js"]
+    }
+  ]
+}
